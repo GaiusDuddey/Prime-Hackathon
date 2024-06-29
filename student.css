@@ -9,7 +9,7 @@
 h1 {
   font-size: 40px;
   text-transform: uppercase;
-  color: #339af0;
+  color: #71f79f;
   padding: 20px 40px;
 }
 .main-header {
@@ -17,7 +17,7 @@ h1 {
   /* background-color: #f7f7f7; */
   align-items: center;
   justify-content: space-between;
-  background-color: #66d9e8;
+  background-color: #28190e;
 }
 .nav-link:link,
 .nav-link:visited {
@@ -44,11 +44,12 @@ h1 {
   color: black;
   background-color: #4263eb;
 }
-.section-con {
+/* .section-con {
   padding: 4.8rem 0 12.8rem;
-}
+} */
 .con {
   margin: 50px 50px;
+  width: 450px;
   display: flex;
   flex-direction: column;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
@@ -56,7 +57,7 @@ h1 {
   background-color: #f7f7f7;
   /* background-image: linear-gradient(to right bottom, #eb984e, #e67e22); */
   overflow: hidden;
-  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  padding: 4rem 4rem 4rem 4rem;
   color: #45260a;
 }
 .con .heading-secondary {
@@ -97,4 +98,12 @@ h1 {
 .con *:focus {
   outline: none;
   box-shadow: 0 0.8rem 0.8rem 0.8rem 0.8rem rgba(253, 242, 233, 0.5);
+}
+.team {
+  height: 50px;
+  width: 50px;
+  color: black;
+}
+h3 {
+  font-size: 40px;
 }
