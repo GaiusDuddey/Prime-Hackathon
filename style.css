@@ -64,8 +64,9 @@
   height: 100vh;
 }
 .cta-text-box {
-  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  padding: 25rem 6.4rem 6.4rem 6.4rem;
   color: #45260a;
+  /* justify-content: center; */
 }
 .cta .heading-secondary {
   /* color: #45260a; */
@@ -130,4 +131,34 @@
   outline: none;
 
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+/* .drop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+} */
+
+.dropdown {
+  display: flex;
+  justify-content: end;
+  align-items: top;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 8rem;
+  color: #45260a;
+  height: 100vh;
+  width: auto;
+  padding-right: 15rem;
+}
+.dropdown-list {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  align-items: top;
+}
+
+/* Ali {
+  align-items: top;
+} */
+.container-new {
 }
