@@ -64,6 +64,10 @@
 
   height: 100vh;
 }
+.sub {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .cta-text-box {
   padding: 25rem 6.4rem 6.4rem 6.4rem;
   color: #45260a;

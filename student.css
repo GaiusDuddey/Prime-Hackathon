@@ -24,6 +24,7 @@ h1 {
   text-align: center;
   color: black;
   background-color: aqua;
+  /* padding: 5px 450px; */
 }
 h4 {
   font-size: 30px;
@@ -47,12 +48,12 @@ h4 {
 .nav-outline:link,
 .nav-outline:visited {
   color: black;
-  background-color: #748ffc;
+  background-color: #71f79f;
 }
 .nav-outline:hover,
 .nav-outline:active {
   color: black;
-  background-color: #4263eb;
+  background-color: #0ec64f;
 }
 /* .section-con {
   padding: 4.8rem 0 12.8rem;
@@ -64,11 +65,17 @@ h4 {
   flex-direction: column;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   /* background-image: linear-gradient(to right bottom, #eb984e, #e67e22); */
+  /* background-image: url(C:\Users\gaius\OneDrive\Desktop\Prime-Hackathon\back.jpg); */
+  /* background: src= "back.jpg"; */
+  background-image: url(back.jpg);
   overflow: hidden;
   padding: 4rem 4rem 4rem 4rem;
   color: #45260a;
+}
+.text-color {
+  color: black;
 }
 .con .heading-secondary {
   /* color: #45260a; */
@@ -142,3 +149,7 @@ h3 {
 span {
   font-size: 30px;
 }
+/* .Back-img {
+  background-image: url(C:\Users\gaius\OneDrive\Desktop\Prime-Hackathon\back.jpg);
+  background-size: 1000px 10000px;
+} */
