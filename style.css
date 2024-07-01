@@ -99,16 +99,6 @@
   line-height: 1.8;
   margin-bottom: 8rem;
 }
-.cta-img-box {
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(235, 151, 78, 0.35),
-      rgba(230, 125, 34, 0.35)
-    ),
-    url("../img/eating.jpg");
-  background-size: cover;
-  background-position: center;
-}
 
 .cta-form {
   display: flex;
@@ -119,7 +109,7 @@
   color: #acc8e5;
 }
 .w {
-  width: 50rem;
+  width: 40rem;
 }
 
 .cta-form label {
@@ -127,6 +117,7 @@
   font-size: 1.6rem;
   font-weight: 500;
   margin-bottom: 1.2rem;
+  color: #112a46;
 }
 
 .cta-form input,
@@ -250,4 +241,8 @@
   justify-content: center;
   /* gap: 10rem; */
   grid-template-columns: repeat(2, 1fr);
+}
+.img-box {
+  display: flex;
+  align-items: stretch;
 }
