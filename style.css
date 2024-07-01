@@ -55,7 +55,7 @@
 .cta {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  background-color: #e67e22;
+  background-color: #acc8e5;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
 
@@ -69,9 +69,29 @@
   color: #45260a;
   /* justify-content: center; */
 }
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 20px;
+}
+.login-button {
+  color: #acc8e5;
+  background-color: #272495;
+  font-size: 23px;
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  display: inline-block;
+  width: 12rem;
+  text-decoration: none;
+}
+.mar-left {
+  margin-left: 18.5rem;
+  margin-top: 2.5rem;
+}
 .cta .heading-secondary {
   /* color: #45260a; */
-  color: inherit;
+  color: #112a46;
   margin-bottom: 3.2rem;
 }
 .cta-text {
@@ -96,6 +116,7 @@
   column-gap: 3.2rem;
   row-gap: 2.4rem;
   flex-direction: column;
+  color: #acc8e5;
 }
 .w {
   width: 50rem;
@@ -221,4 +242,12 @@
   padding: 3.6rem 4.8rem;
   border-radius: 9px;
   width: 18rem;
+}
+
+/* 2 columns */
+.side {
+  display: flex;
+  justify-content: center;
+  /* gap: 10rem; */
+  grid-template-columns: repeat(2, 1fr);
 }
