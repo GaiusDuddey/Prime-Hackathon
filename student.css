@@ -68,7 +68,7 @@ h4 {
   /* background-image: linear-gradient(to right bottom, #eb984e, #e67e22); */
   /* background-image: url(C:\Users\gaius\OneDrive\Desktop\Prime-Hackathon\back.jpg); */
   /* background: src= "back.jpg"; */
-  background-image: url(back.jpg);
+  background: linear-gradient(45deg, #03ece9, #dfff27);
   overflow: hidden;
   padding: 4rem 4rem 4rem 4rem;
   color: #45260a;
