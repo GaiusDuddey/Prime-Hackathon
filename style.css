@@ -82,7 +82,8 @@
   align-items: left;
   gap: 20px;
 }
-.login-button {
+.login-button:link,
+.login-button:visited {
   color: #acc8e5;
   background-color: #272495;
   font-size: 23px;
@@ -92,6 +93,12 @@
   width: 12rem;
   text-decoration: none;
 }
+.login-button:hover,
+.login-button:active {
+  background-color: #1b16b7;
+  border: 3px solid #fff;
+}
+
 .mar-left {
   margin-left: 18.5rem;
   margin-top: 2.5rem;
@@ -208,7 +215,7 @@
 .content {
   position: relative;
   background: white;
-  padding: 2em 4em;
+  padding: 1rem 2em;
   /* border-radius: 4px; */
   display: flex;
   flex-direction: column;
@@ -230,7 +237,7 @@
 }
 .margin-rm {
   margin-right: 5rem;
-  margin-bottom: 5rem;
+  /* margin-bottom: 0.5rem; */
   font-size: xx-large;
 }
 .margin-bo {
@@ -269,4 +276,12 @@
   font-family: serif;
   line-height: 5.2rem;
   /* background: url(logo-back.jpg); */
+}
+
+.up {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
 }

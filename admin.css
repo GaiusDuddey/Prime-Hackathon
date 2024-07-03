@@ -49,7 +49,9 @@ h1 {
 .nav-outline:active {
   color: black;
   background-color: #0ec64f;
+  border: 3px solid #fff;
 }
+
 .hero {
   max-width: 130rem;
   margin: 0 auto;
