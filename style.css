@@ -285,3 +285,10 @@
   justify-content: center;
   align-items: center;
 }
+.upp {
+  margin-top: 6px;
+  margin-bottom: 14px;
+}
+.new:link,
+.new:visited {
+}
